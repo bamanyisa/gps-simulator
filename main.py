@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def main() -> None:
     try:
         config = Config('config/config.json')
-    except ValueError as e:
+    except Exception as e:
         logging.error(e)
         return
 
