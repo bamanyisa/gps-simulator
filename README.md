@@ -15,4 +15,4 @@ data to a Traccar server.
 
 To run the simulation, execute:
 ```sh
-python src/main.py
+python3 main.py
